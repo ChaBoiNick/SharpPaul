@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SharpPaul</Text>
+    <Description>Some description for SharpPaul</Description>
+    <Assembly>SharpPaul.dll</Assembly>
+    <FullClassName>SharpPaul.Command</FullClassName>
+    <ClientId>a11680b2-d1dc-4670-8b11-bd4f07aad5f3</ClientId>
+    <VendorId>Nick Schmidt</VendorId>
+    <VendorDescription>Nick Schmidt</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SharpPaul</Name>
+    <Assembly>SharpPaul.dll</Assembly>
+    <FullClassName>SharpPaul.App</FullClassName>
+    <ClientId>2933ebca-6f38-440a-a293-97b70469b58f</ClientId>
+    <VendorId>Nick Schmidt</VendorId>
+    <VendorDescription>Nick Schmidt</VendorDescription>
+  </AddIn>
+</RevitAddIns>
